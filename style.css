@@ -26,10 +26,12 @@ body {
 
 .profile-img {
     width: 15rem;
-    height: 16rem;
+    height: 15rem;
     border-radius: 50%;
     display: block;
     margin: 0 auto 15px;
+    object-fit:cover;
+    vertical-align: middle;
 }
 
 h2 {
