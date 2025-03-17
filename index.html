@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <img src="images\1000016631.jpg" alt="profile picture" data-testid="profilePicture" class="profile-img">
+          
+        <h2 data-testid="fullName">Khalid Zakariya</h2>
+        <p class="job-title" data-testid="jobTitle">Frontend Developer</p>
+
+        <p class="bio" data-testid="shortBio">
+            Enthusiastic about creating and enhancing interactive web experiences.
+            I enjoy intuitive design, seamless user interactions, and tackling real-world challenges through coding.
+        </p>
+
+        <p class="location" data-testid="currentLocation">Lagos, Nigeria</p>
+        <p class="email" data-testid="emailAddress">Khalidzakthefirst@gmail.com</p>
+
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://www.linkedin.com/in/khalidzak" class="btn">LinkedIn</a>
+            <a href="https://github.com/khalidzak" class="btn">GitHub</a>
+            <a href="https://x.com/ruronin_khal" class="btn">Twitter</a>
+        </div>
+
+        <p class="utc-time" data-testid="currentTimeUTC">UTC Time: <span id="utcTime"></span></p>
+    </div>
+</body>
+</html>
